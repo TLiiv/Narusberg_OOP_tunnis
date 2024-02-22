@@ -30,6 +30,7 @@
         {
             this.TL_btn1 = new System.Windows.Forms.Button();
             this.TL_btn2 = new System.Windows.Forms.Button();
+            this.TL_btn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TL_btn1
@@ -49,7 +50,7 @@
             // 
             this.TL_btn2.BackColor = System.Drawing.Color.ForestGreen;
             this.TL_btn2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TL_btn2.Location = new System.Drawing.Point(34, 124);
+            this.TL_btn2.Location = new System.Drawing.Point(28, 124);
             this.TL_btn2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.TL_btn2.Name = "TL_btn2";
             this.TL_btn2.Size = new System.Drawing.Size(195, 68);
@@ -58,11 +59,25 @@
             this.TL_btn2.UseVisualStyleBackColor = false;
             this.TL_btn2.Click += new System.EventHandler(this.TL_btn2_Click);
             // 
+            // TL_btn3
+            // 
+            this.TL_btn3.BackColor = System.Drawing.Color.ForestGreen;
+            this.TL_btn3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TL_btn3.Location = new System.Drawing.Point(28, 224);
+            this.TL_btn3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.TL_btn3.Name = "TL_btn3";
+            this.TL_btn3.Size = new System.Drawing.Size(195, 68);
+            this.TL_btn3.TabIndex = 2;
+            this.TL_btn3.Text = "22.02.2024";
+            this.TL_btn3.UseVisualStyleBackColor = false;
+            this.TL_btn3.Click += new System.EventHandler(this.TL_btn3_Click);
+            // 
             // TL_Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(263, 316);
+            this.Controls.Add(this.TL_btn3);
             this.Controls.Add(this.TL_btn2);
             this.Controls.Add(this.TL_btn1);
             this.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
@@ -77,6 +92,7 @@
 
         private System.Windows.Forms.Button TL_btn1;
         private System.Windows.Forms.Button TL_btn2;
+        private System.Windows.Forms.Button TL_btn3;
     }
 }
 

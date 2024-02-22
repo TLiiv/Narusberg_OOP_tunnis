@@ -21,3 +21,4 @@ C:\Progemine\Kool\C Sharp\Narusberg\OOP\Projektid\TL_projekt2 KTA-23E\TL_OOP_Pro
 C:\Progemine\Kool\C Sharp\Narusberg\OOP\Projektid\TL_projekt2 KTA-23E\TL_OOP_Projekt_KTA-23E\TL_OOP_Projekt_KTA-23E\obj\Debug\TL_OOP_Projekt_KTA-23E.exe
 C:\Progemine\Kool\C Sharp\Narusberg\OOP\Projektid\TL_projekt2 KTA-23E\TL_OOP_Projekt_KTA-23E\TL_OOP_Projekt_KTA-23E\obj\Debug\TL_OOP_Projekt_KTA-23E.pdb
 C:\Progemine\Kool\C Sharp\Narusberg\OOP\Projektid\TL_projekt2 KTA-23E\TL_OOP_Projekt_KTA-23E\TL_OOP_Projekt_KTA-23E\obj\Debug\TL_OOP_Projekt_KTA_23E.TL_Form_08_02_2024.resources
+C:\Progemine\Kool\C Sharp\Narusberg\OOP\Projektid\TL_projekt2 KTA-23E\TL_OOP_Projekt_KTA-23E\TL_OOP_Projekt_KTA-23E\obj\Debug\TL_OOP_Projekt_KTA_23E.TL_form_22_02_2024.resources

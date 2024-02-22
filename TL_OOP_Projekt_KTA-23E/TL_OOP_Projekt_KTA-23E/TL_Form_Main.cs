@@ -13,7 +13,7 @@ namespace TL_OOP_Projekt_KTA_23E
     public partial class TL_Form_Main : Form
     {
         Form F2 = new TL_Form_08_02_2024();
-
+        Form F3 = new TL_form_22_02_2024();
         public TL_Form_Main()
         {
             InitializeComponent();
@@ -32,7 +32,6 @@ namespace TL_OOP_Projekt_KTA_23E
             if (F2.Visible==false)
             {
                 Form F2 = new TL_Form_08_02_2024();
-                
                 F2.Visible = true;
                 F2.Activate();
             }
@@ -40,7 +39,14 @@ namespace TL_OOP_Projekt_KTA_23E
            
         }
 
-        
-        
+        private void TL_btn3_Click(object sender, EventArgs e)
+        {
+            if(F3.Visible == false)
+            {
+                Form F3 = new TL_form_22_02_2024();
+                F3.Visible = true;
+                F3.Activate();
+            }
+        }
     }
 }

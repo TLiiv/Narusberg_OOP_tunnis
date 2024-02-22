@@ -58,6 +58,12 @@
     <Compile Include="TL_Form_2024_01_25.Designer.cs">
       <DependentUpon>TL_Form_2024_01_25.cs</DependentUpon>
     </Compile>
+    <Compile Include="TL_form_22_02_2024.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TL_form_22_02_2024.Designer.cs">
+      <DependentUpon>TL_form_22_02_2024.cs</DependentUpon>
+    </Compile>
     <Compile Include="TL_Form_Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TL_Form_2024_01_25.resx">
       <DependentUpon>TL_Form_2024_01_25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TL_form_22_02_2024.resx">
+      <DependentUpon>TL_form_22_02_2024.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TL_Form_Main.resx">
       <DependentUpon>TL_Form_Main.cs</DependentUpon>
