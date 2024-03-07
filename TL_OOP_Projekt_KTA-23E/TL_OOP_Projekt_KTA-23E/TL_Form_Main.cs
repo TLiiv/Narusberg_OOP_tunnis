@@ -14,6 +14,7 @@ namespace TL_OOP_Projekt_KTA_23E
     {
         Form F2 = new TL_Form_08_02_2024();
         Form F3 = new TL_form_22_02_2024();
+        Form F4 = new TL_Form_07_03_2024();
         public TL_Form_Main()
         {
             InitializeComponent();
@@ -46,6 +47,16 @@ namespace TL_OOP_Projekt_KTA_23E
                 Form F3 = new TL_form_22_02_2024();
                 F3.Visible = true;
                 F3.Activate();
+            }
+        }
+
+        private void TL_btn4_Click(object sender, EventArgs e)
+        {
+            if (F4.Visible == false)
+            {
+                Form F4 = new TL_Form_07_03_2024();
+                F4.Visible = true;
+                F4.Activate();
             }
         }
     }

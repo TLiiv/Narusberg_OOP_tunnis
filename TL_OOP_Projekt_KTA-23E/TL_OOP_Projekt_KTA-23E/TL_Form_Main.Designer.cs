@@ -31,6 +31,7 @@
             this.TL_btn1 = new System.Windows.Forms.Button();
             this.TL_btn2 = new System.Windows.Forms.Button();
             this.TL_btn3 = new System.Windows.Forms.Button();
+            this.TL_btn4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TL_btn1
@@ -72,11 +73,25 @@
             this.TL_btn3.UseVisualStyleBackColor = false;
             this.TL_btn3.Click += new System.EventHandler(this.TL_btn3_Click);
             // 
+            // TL_btn4
+            // 
+            this.TL_btn4.BackColor = System.Drawing.Color.ForestGreen;
+            this.TL_btn4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TL_btn4.Location = new System.Drawing.Point(28, 321);
+            this.TL_btn4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.TL_btn4.Name = "TL_btn4";
+            this.TL_btn4.Size = new System.Drawing.Size(195, 68);
+            this.TL_btn4.TabIndex = 3;
+            this.TL_btn4.Text = "07.03.2024";
+            this.TL_btn4.UseVisualStyleBackColor = false;
+            this.TL_btn4.Click += new System.EventHandler(this.TL_btn4_Click);
+            // 
             // TL_Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 316);
+            this.ClientSize = new System.Drawing.Size(277, 393);
+            this.Controls.Add(this.TL_btn4);
             this.Controls.Add(this.TL_btn3);
             this.Controls.Add(this.TL_btn2);
             this.Controls.Add(this.TL_btn1);
@@ -93,6 +108,7 @@
         private System.Windows.Forms.Button TL_btn1;
         private System.Windows.Forms.Button TL_btn2;
         private System.Windows.Forms.Button TL_btn3;
+        private System.Windows.Forms.Button TL_btn4;
     }
 }
 
